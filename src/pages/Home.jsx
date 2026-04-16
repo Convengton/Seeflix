@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import MediaList from "../components/MediaList";
+import Homelist from "../components/home/Homelist";
 import { trending_movies } from "../data/trending_movies";
 import { top_shows } from "../data/top_shows";
 
@@ -9,8 +9,8 @@ export default function Home() {
     <div>
       <Header />
       <main className="container">
-        <MediaList items={trending_movies} />
-        <MediaList items={top_shows} />
+        <Homelist title="Trending Movies" items={trending_movies} />
+        <Homelist title="Top Shows" items={top_shows} />
       </main>
     </div>
   );
