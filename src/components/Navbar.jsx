@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <Link className="navbar__brand" to="/">
-        <img className="navbar__logo" src="/seeflix.png" alt="Seeflix logo" width="32" height="32" />
+        <img className="navbar__logo" src="/image.png" alt="Seeflix logo" width="32" height="32" />
         <span>Seeflix</span>
       </Link>
       <ul className="navbar__links">
