@@ -1,11 +1,11 @@
 import Homecard from "./Homecard";
 
-export default function Homelist({items }) {
+export default function Homelist({title, items }) {
 
     return(
         <section className="media-list">
       <div className="media-list__header">
-        <h3>Popular movies</h3>
+        <h3>{title}</h3>
       </div>
       <div className="media-list__grid">
         {items.map((item) => (

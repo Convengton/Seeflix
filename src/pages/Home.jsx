@@ -10,7 +10,7 @@ export default function Home() {
       <Header />
       <main className="container">
         <Homelist title="Trending Movies" items={trending_movies} />
-        <Homelist title="Top Shows" items={top_shows} />
+        <Homelist title="Top tv Shows" items={top_shows} />
       </main>
     </div>
   );

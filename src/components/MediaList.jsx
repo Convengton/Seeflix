@@ -5,7 +5,7 @@ export default function MediaList({ items}) {
   return (
     <section className="media-list">
       <div className="media-list__header">
-        <h3>Popular movies</h3>
+        <h3>Popular Movies</h3>
       </div>
       <div className="media-list__grid">
         {items.map((item) => (
