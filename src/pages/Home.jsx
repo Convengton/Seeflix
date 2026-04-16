@@ -9,8 +9,8 @@ export default function Home() {
     <div>
       <Header />
       <main className="container">
-        <Homelist title="Trending Movies" items={trending_movies} />
-        <Homelist title="Top tv Shows" items={top_shows} />
+        <Homelist title="Trending" items={trending_movies} />
+        <Homelist title="Top movies" items={top_shows} />
       </main>
     </div>
   );
