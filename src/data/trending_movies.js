@@ -41,6 +41,13 @@ export const trending_movies = [
     type: "movie",
   },
   {
+    id: 6,
+    title: "Inception 2 (Fake)",
+    cover: Inception,
+    rating: 8.0,
+    type: "movie",
+  },
+  {
     id: 7,
     title: "Dark Knight Rises",
     cover: DarkKnight,
